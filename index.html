@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <link
+      rel="stylesheet"
+      href="/primitive/src/scss/main.css"
+      type="text/css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6fa6438838.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <figure class="flex-item">
+        <img src="/images/logo.svg" alt="" />
+      </figure>
+      <nav class="flex-item">
+        <a href="#">Features</a>
+        <a href="#">Team</a>
+        <a href="#">Sign In</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <article class="flex-item-hero">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <form action="">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email..."
+            />
+            <button>Get Started</button>
+          </form>
+        </article>
+        <figure class="flex-item-hero form">
+          <img
+            class="responsive-image"
+            src="/images/illustration-1.svg"
+            alt=""
+          />
+        </figure>
+      </section>
+
+      <img
+        class="responsive-image"
+        src="/images/bg-curve-mobile.svg"
+        srcset="/images/bg-curve-desktop.svg 1200w"
+        alt=""
+      />
+
+      <section class="section-testimonial">
+        <article class="flex-item-testimonial">
+          <h2>Stay productive, wherever you are</h2>
+          <p class="testimonial-paragraph">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="testimonial-paragraph">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <a class="testimonial-anchor" href="#"
+            >See how Fylo works
+            <img class="arrow" src="/images/icon-arrow.svg" alt=""
+          /></a>
+          <blockquote>
+            <img src="/images/icon-quotes.svg" alt="" />
+            <cite
+              >Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.</cite
+            >
+            <figure class="grid-testimonial">
+              <img
+                class="img-testimonial"
+                src="/images/avatar-testimonial.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p class="testimonial-name">
+                  Kyle Burton<br /><span class="testimonial-span"
+                    >Founder & CEO, Huddle</span
+                  >
+                </p>
+              </figcaption>
+            </figure>
+          </blockquote>
+        </article>
+        <figure class="flex-item-testimonial">
+          <img
+            class="responsive-image img-2"
+            src="/images/illustration-2.svg"
+            alt=""
+          />
+        </figure>
+      </section>
+
+      <section class="section-cat">
+        <article class="flex-item-cat">
+          <h2>Get early access today</h2>
+          <p class="cat-paragraph">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </article>
+        <aside class="flex-item-cat">
+          <form class="cat" action="">
+            <input type="email" name="" id="" placeholder="email@example.com" />
+            <button>Get Started For Free</button>
+          </form>
+        </aside>
+      </section>
+
+      <footer>
+        <figure class="logo-footer">
+          <img src="/images/logo-copy.svg" alt="" />
+        </figure>
+        <div class="footer-row">
+          <address class="flex-column">
+            <a class="address" href="#"
+              ><img class="icon-footer" src="/images/icon-phone.svg" alt="" /> Phone:
+              +1-543-123-4567</a
+            >
+            <br>
+            <a class="address" href="#"
+              ><img class="icon-footer" src="/images/icon-email.svg" alt="" /> example@fylo.com</a
+            >
+          </address>
+          <nav class="flex-column">
+            <a href="#">About Us</a>
+            <a href="#">Jobs</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+          </nav>
+          <nav class="flex-column">
+            <a href="#">Contact Us</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+          </nav>
+          <nav class="flex-column social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </nav>
+        </div>
+      </footer>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
